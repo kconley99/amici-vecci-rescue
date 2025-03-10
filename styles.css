@@ -3,9 +3,8 @@
 header {
     display: flex;
     justify-content: space-between;
-    font-family: Verdana, Georgia, sans-serif;
-    color: #333;
-    background-color: rgba(255, 111, 97, 0.4);
+    font-family: Verdana, Georgia;
+    background-color: rgba(255, 152, 0, 0.7);
 }
 
 .head-logo {
@@ -48,7 +47,7 @@ nav a:active {
   }
 
   nav a:hover {
-    color: #8BC34A;
+    color: #4CAF50;
   }
   
   /* main heading */
@@ -58,15 +57,187 @@ h1 {
     margin-right: 400px;
 }
 
+/*intro container section*/
+
+/*home page intro container */
 .intro-container {
     display: flex;
     border: 3px solid #333;
     margin: 20px 30px;
 }
 
+
+/*home page image and text */
 #home-dog-img {
-    height: 650px;
-    width: 600px;
-    margin-left: 100px;
-    padding: 0px 3px;
+    height: 640px;
+    width: 590px;
+    margin-left: 50px;
+    border-left: 3px solid #333;
+}
+
+.title {
+    text-align: left;
+    padding: 80px 5px 1px 60px;
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+div h3 {
+    text-align: left;
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 5px 5px 1px 80px;
+}
+
+div h4 {
+    padding: 20px 5px 1px 80px;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+/* home page action buttons */
+.home-buttons {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 75px;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+button h3 {
+    font-family: verdana;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/*stats section */ 
+ h2 {
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    font-size: 28px;
+    margin: 20px;
+    padding: 50px;
+}
+
+/*stat boxes */
+.stats-container {
+    display: flex;
+    gap: 20px; /* Space between stat boxes */
+    justify-content: center;
+}
+
+.stat-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+/*icon design*/
+.stat-box i {
+    font-size: 60px;
+    margin-right: -40px;
+}
+
+/* stat text */
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h3, .text h4 {
+    margin: 0;
+    line-height: 0.5;
+}
+
+.text h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.text h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+/* heart stat */
+.heart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart {
+    position: relative;
+    width: 100px; /* Adjust size as needed */
+    height: 90px; /* Adjust size as needed */
+    background-color: #000; /* Black color */
+    transform: rotate(-45deg);
+    margin: 20px;
+}
+
+.heart::before, .heart::after {
+    content: "";
+    position: absolute;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background-color: #000; /* Black color */
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -50px; /* Adjust position as needed */
+    left: 0;
+}
+
+.heart::after {
+    top: -10px;
+    left: 45px; /* Adjust position as needed */
+}
+
+.heart h3 {
+    transform: translate(-50%, -50%) rotate(45deg);
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    z-index: 1;
+    font-family: Georgia;
+    position: absolute;
+    left: 35%;
+    top: 1px;
+    bottom: 15px;
+    color: white;
+    white-space: nowrap;
+}
+
+div button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
 }
