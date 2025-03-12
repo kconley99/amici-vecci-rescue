@@ -4,7 +4,8 @@ header {
     display: flex;
     justify-content: space-between;
     font-family: Verdana, Georgia;
-    background-color: rgba(255, 152, 0, 0.7);
+    background-color: rgba(134, 135, 136, 0.152);
+
 }
 
 .head-logo {
@@ -47,7 +48,7 @@ nav a:active {
   }
 
   nav a:hover {
-    color: #4CAF50;
+    color: #b3b14e;
   }
   
   /* main heading */
@@ -55,6 +56,7 @@ h1 {
     font-size: 30px;
     padding: 65px 0px;
     margin-right: 400px;
+    color: #87CEEB;
 }
 
 /*intro container section*/
@@ -226,9 +228,11 @@ button h3 {
     bottom: 15px;
     color: white;
     white-space: nowrap;
+    font-weight: 600;
 }
 
-div button {
+/* black heart donate link */
+ .stat-box button {    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
@@ -240,4 +244,81 @@ div button {
     text-decoration: none;
     z-index: 1;
     position: absolute;
+}
+
+/* partners section */
+.partners-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid #333;
+    gap: 70px;
+    justify-content: space-between;
+    margin: 20px;
+    position: relative;
+    font-family: Georgia;
+}
+
+/* border around partners text */
+.border {
+    border-top: 3px solid #333;
+    border-right: 3px solid #333;
+    border-left: 3px solid #333;
+    border-bottom: none; /* No border at the bottom */
+    margin-bottom: -20px;
+    text-align: left;
+    padding: 60px;
+  }
+  
+/*images in partner-container */
+.partner {
+    flex: 1 0 12%;
+    margin: 30px 60px;
+    padding: 5px;
+    position: relative;
+} 
+
+/*footer */
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#foot-logo {
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.footer-container h3 {
+    font-family: Georgia;
+    margin-left: -80px;
+}
+
+.footer-info {
+    margin: auto;
+    text-align: center;
+}
+
+.footer-info h4 {
+    font-family: verdana;
+    display: block;
+    margin-left: -120px;
+    margin-top: -20px;
+    margin-bottom: -15px;;
+}
+
+.copyright {
+    display: block;
+    float: right;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.logo-text-container {
+    display: flex;
+    align-items: center;
 }
