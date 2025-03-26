@@ -1,11 +1,10 @@
-/* header */
 
+/* header */
 header {
     display: flex;
     justify-content: space-between;
     font-family: Verdana, Georgia;
     background-color: rgba(134, 135, 136, 0.152);
-
 }
 
 .head-logo {
@@ -48,9 +47,13 @@ nav a:active {
   }
 
   nav a:hover {
-    color: #b3b14e;
+    color: #87CEEB;
   }
   
+  nav a {
+    color: #FF4500;
+    text-decoration: underline;
+  }
   /* main heading */
 h1 {
     font-size: 30px;
@@ -66,6 +69,7 @@ h1 {
     display: flex;
     border: 3px solid #333;
     margin: 20px 30px;
+    background-color: #87CEEB;
 }
 
 
@@ -118,6 +122,9 @@ button {
     align-items: center;
     box-sizing: border-box;
     cursor: pointer;
+    background-color: rgba(84, 137, 31, 0.499);
+    border: 3px solid rgba(134, 135, 136, 0.744);
+    border-radius: 8px;
 }
 
 button h3 {
@@ -256,6 +263,7 @@ button h3 {
     margin: 20px;
     position: relative;
     font-family: Georgia;
+    background-color: rgba(134, 135, 136, 0.152);
 }
 
 /* border around partners text */
@@ -267,6 +275,7 @@ button h3 {
     margin-bottom: -20px;
     text-align: left;
     padding: 60px;
+    background-color: #87CEEB;
   }
   
 /*images in partner-container */
@@ -283,6 +292,7 @@ button h3 {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    background-color: rgba(134, 135, 136, 0.152);
 }
 
 #foot-logo {
@@ -295,6 +305,7 @@ button h3 {
 .footer-container h3 {
     font-family: Georgia;
     margin-left: -80px;
+    color: #87CEEB;
 }
 
 .footer-info {
@@ -308,6 +319,11 @@ button h3 {
     margin-left: -120px;
     margin-top: -20px;
     margin-bottom: -15px;;
+}
+
+.footer-container a {
+    color: #FF4500;
+    text-decoration: underline;
 }
 
 .copyright {
