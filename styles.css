@@ -338,3 +338,55 @@ button h3 {
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 1440px) {
+    header h1 {
+        margin-right: 150px;
+    }
+
+    header {
+        justify-content: space-around;
+}
+
+}
+
+@media (max-width: 1024px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }    header h1 {
+        margin-right: 150px;
+    }
+
+    header {
+        justify-content: space-around;
+}
+
+    .intro-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 850px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }    header h1 {
+        margin-right: 150px;
+    }
+
+    header {
+        justify-content: space-around;
+}
+
+    
+
+
+
+
+
+
+}
