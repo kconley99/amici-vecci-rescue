@@ -447,6 +447,7 @@ header {
 #home-dog-img {
     width: 300px;
     height: auto;
+}
 
 div h3 {
     font-size: 20px;
@@ -468,5 +469,4 @@ div h3 {
     flex-direction: column;
     gap: 15px;
 }
-
 }
