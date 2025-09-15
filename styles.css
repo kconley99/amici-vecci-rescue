@@ -258,7 +258,6 @@ button h3 {
     display: flex;
     flex-wrap: wrap;
     border: 3px solid #333;
-    gap: 70px;
     justify-content: space-between;
     margin: 20px;
     position: relative;
