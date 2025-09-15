@@ -341,7 +341,47 @@ button h3 {
 
 @media (max-width: 768px) {
 
+header {
+    align-items: center;
+}
 
+.intro-container {
+    margin: auto;
+}
+
+#home-dog-img {
+    margin: auto;
+}
+
+.partner {
+    flex: none;
+    padding: 0;
+}
+
+.footer-container {
+    flex-direction: column;
+}
+
+.footer-info {
+    text-align: none;
+}
+
+.copyright {
+    display: flex;
+    margin-right: 58px;
+}
+
+}
+
+@media (max-width: 375px) {
+
+header {
+    flex-direction: column;
+}
+
+.intro-container {
+        flex-direction: column;
+}
 
 
 
