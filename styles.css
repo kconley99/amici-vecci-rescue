@@ -77,7 +77,7 @@ h1 {
 #home-dog-img {
     height: 640px;
     width: 590px;
-    margin-left: 50px;
+    margin: auto;
     border-left: 3px solid #333;
 }
 
@@ -337,135 +337,15 @@ button h3 {
     align-items: center;
 }
 
-@media (max-width: 1440px) {
-    header h1 {
-        margin-right: 150px;
-    }
 
-    header {
-        justify-content: space-around;
-}
 
-}
+@media (max-width: 768px) {
 
-@media (max-width: 1024px) {
 
-    header {
-        flex-direction: column;
-        align-items: center;
-    }    header h1 {
-        margin-right: 150px;
-    }
 
-    header {
-        justify-content: space-around;
-}
 
-    .intro-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
-@media (max-width: 850px) {
 
-    header {
-        flex-direction: column;
-        align-items: center;
-    }    
-    header h1 {
-        margin-right: 150px;
-    }
 
-    header {
-        justify-content: space-around;
-}
-}
 
-@media (max-width: 675px) {
-
-    header {
-        flex-direction: column;
-        align-items: center;
-    }    
-    header h1 {
-        margin-right: 150px;
-    }
-
-    header {
-        justify-content: space-around;
-}
-
-#home-dog img {
-    width: auto;
-}
-
-.stats-container {
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-container {
-    flex-direction: column;
-    gap: 15px;
-}
-}
-
-@media (max-width: 450px) {
-
-    header {
-        flex-direction: column;
-        align-items: center;
-    }    
-    header h1 {
-        margin-right: 150px;
-    }
-
-    header {
-        justify-content: space-around;
-}
-}
-
-@media (max-width: 375px) {
-
-header {
-    align-items: center;
-}
-
-.intro-container {
-    margin: 0;
-    align-items: center;
-    width: auto;
-}
-
-.home-buttons {
-    flex-direction: column;
-    gap: 15px;
-}
-
-#home-dog-img {
-    width: 300px;
-    height: auto;
-}
-
-div h3 {
-    font-size: 20px;
-    padding: 15px;
-}
-
-.stats-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-}
-
-.heart h3 {
-    left: 75%;
-    top: 15px;
-}
-
-.footer-container {
-    flex-direction: column;
-    gap: 15px;
-}
 }
