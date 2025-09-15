@@ -379,6 +379,10 @@ header {
     flex-direction: column;
 }
 
+h1 {
+    margin-right: 0;
+}
+
 .intro-container {
     flex-direction: column;
     margin: 0;
@@ -386,6 +390,7 @@ header {
 
 .home-buttons {
     flex-direction: column;
+    gap: 25px;
 }
 
 #home-dog-img {
@@ -397,6 +402,12 @@ header {
 .stats-container {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+}
+
+.stat-box {
+    flex-direction: column;
+    text-align: center;
 }
 
 .partner {
@@ -416,6 +427,12 @@ header {
 
 div h4 {
     padding: 0;
+    text-align: center;
+}
+
+div h3 {
+    text-align: center;
+    padding: 5px 10px;
 }
 
 .footer-info h4 {
@@ -424,7 +441,23 @@ div h4 {
     margin-bottom: 0;
 }
 
+.text h4 {
+    margin: none;
+}
 
+.stat-box i {
+    margin-right: none;
+}
+
+.heart h3 {
+    left: 70px;
+    top: 30px;
+    bottom: 1px;
+}
+
+.border {
+    text-align: center;
+}
 
 
 
