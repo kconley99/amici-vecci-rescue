@@ -281,7 +281,6 @@ button h3 {
 /*images in partner-container */
 .partner {
     flex: 1 0 12%;
-    margin: 30px 60px;
     padding: 5px;
     position: relative;
 } 
