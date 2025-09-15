@@ -441,6 +441,12 @@ div h3 {
     margin-bottom: 0;
 }
 
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .text h4 {
     margin: none;
 }
@@ -458,6 +464,48 @@ div h3 {
 .border {
     text-align: center;
 }
+}
+
+@media (max-width: 768px) {
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-container {
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+div h4 {
+    text-align: center;
+}
+
+.partners-container {
+    justify-content: space-around;
+}
+
+.footer-container {
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-info h4 {
+    margin-left: 0;
+}
+
+.copyright {
+    margin-right: 0;
+}
+
+
 
 
 
